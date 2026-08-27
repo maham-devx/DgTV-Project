@@ -66,7 +66,7 @@ export default function HostSpecials() {
         {
             id: 5,
             title: 'Cosmic Frequencies & Ancient Mysticism',
-            guest: 'Dr. Ayesha Malik',
+            guest: 'Dr. Ayesha',
             role: 'Metaphysics Expert',
             duration: '58m',
             type: 'Audio Only',
