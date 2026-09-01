@@ -141,7 +141,7 @@ export default function EpisodesGrid({
                         </p>
                     </div>
                 ) : (
-                    /* 3-Column Grid */
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {currentEpisodes.map((ep) => (
                             <a
