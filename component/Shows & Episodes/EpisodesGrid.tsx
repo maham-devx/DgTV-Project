@@ -168,7 +168,7 @@ export default function EpisodesGrid({
                                     </span>
                                 </div>
 
-                                {/* Content Body */}
+
                                 <div className="p-6 flex-grow flex flex-col justify-between">
                                     <div>
                                         {/* Tags */}
