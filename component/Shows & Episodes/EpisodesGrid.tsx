@@ -109,7 +109,6 @@ export default function EpisodesGrid({
         },
     ];
 
-    // Filtering Logic
     const filteredEpisodes = allEpisodes.filter((episode) => {
         const matchesCategory =
             selectedCategory === 'All Shows' || episode.category === selectedCategory;
@@ -121,7 +120,7 @@ export default function EpisodesGrid({
         return matchesCategory && matchesSearch;
     });
 
-    // Pagination Calculations
+
     const totalPages = Math.ceil(filteredEpisodes.length / episodesPerPage);
     const indexOfLastEpisode = currentPage * episodesPerPage;
     const indexOfFirstEpisode = indexOfLastEpisode - episodesPerPage;
